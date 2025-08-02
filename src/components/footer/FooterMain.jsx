@@ -21,8 +21,8 @@ const FooterMain = () => {
   ];
   return (
     <div className="px-4">
-      <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
-      <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
+      <div className="w-full h-[1px] bg-lightGrey mt-24"><hr /></div>
+      <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden mb-5">
         <p className="text-3xl text-lightGrey ">-Bhola Shankar-</p>
         <ul className="flex gap-4 text-lightGrey text-xl">
           {footerLinks.map((item, index) => {
@@ -43,7 +43,7 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
+      <p className="max-w-[1200px] mx-auto text-center mt-5 mb-10 text-sm text-lightBrown">
         © 2025 BS | All Rights Reserved.
       </p>
     </div>
