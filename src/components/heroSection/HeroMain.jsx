@@ -3,7 +3,7 @@ import HeroPic from "./HeroPic";
 
 const HeroMain = () => {
   return (
-    <div className=" pt-40 pb-16">
+    <div className=" pt-40 pb-16 ">
       <div className="flex lg:flex-row 
       md:flex-row flex-col  max-w-[1200px] mx-auto justify-between items-center relative px-4">
         <HeroText />
