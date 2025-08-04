@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 const AboutMeText = () => {
   return (
     <div className="flex flex-col text-justify md:items-start sm:items-center md:text-left ">
-      <h2 className="text-6xl text-cyan mb-10">About Me</h2>
-      <p className="lg:text-xl">
+      <h2 className="text-6xl  text-cyan mb-10 ml-4 font-special font-extrabold">About Me</h2>
+      <p className="lg:text-xl text-justify p-3">
         👋 Hi, I’m Bhola Shankar — a passionate Full Stack Web Developer and B.Tech (IT) graduate with a 9.0 CGPA.
         I specialize in building clean, responsive, and high-performing web applications using the MERN Stack and Tailwind CSS.
 

@@ -37,7 +37,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <p className="text-cyan">{success}</p>
+      <p className="text-cyan-500">{success}</p>
       <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
         <input
           type="text"
@@ -46,7 +46,7 @@ const ContactForm = () => {
           required
           className="h-12 rounded-lg bg-lightBrown px-2 shadow-2xs shadow-amber-50"
           value={name}
-          onChange={handleName}
+          onChange={(e)=>setName(e.target.value)}
         />
         <input
           type="email"

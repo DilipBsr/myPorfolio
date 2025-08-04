@@ -43,7 +43,7 @@ const ProjectsMain = () => {
         viewport={{ once: false, amount: 0.7 }}
       >
         <div className="flex flex-col items-center mt-[100px]">
-          <h2 className="text-6xl text-cyan mb-10">Projects</h2>
+          <h2 className="text-6xl text-cyan mb-10 font-special font-extrabold">Projects</h2>
           <p className="text-lg text-center">
             I have worked on a variety of web development projects, ranging from
             responsive small websites to a full-stack complex applications.
