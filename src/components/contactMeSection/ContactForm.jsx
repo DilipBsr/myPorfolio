@@ -31,20 +31,21 @@ const ContactForm = () => {
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setSuccess(`Failed Due To Error,Try Later. `)
         }
       );
   };
 
   return (
     <div>
-      <p className="text-cyan-500">{success}</p>
+      <p className="text-cyan-800 text-center ">{success}</p>
       <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
         <input
           type="text"
           name="from_name"
           placeholder="Your Name"
-          required
           className="h-12 rounded-lg bg-lightBrown px-2 shadow-2xs shadow-amber-50"
+          required
           value={name}
           onChange={(e)=>setName(e.target.value)}
         />
