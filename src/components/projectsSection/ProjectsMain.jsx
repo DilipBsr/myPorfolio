@@ -7,28 +7,28 @@ const projects = [
     name: "News App",
     year: "March 2023",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "../images/website-img-2.webp",
     link: "#",
   },
   {
     name: "House Mela",
     year: "Sep 2023",
     align: "right",
-    image: "../../public/images/website-img-2.webp",
+    image: "../images/website-img-2.webp",
     link: "#",
   },
   {
     name: "Sofos",
     year: "July 2024",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "../images/website-img-2.webp",
     link: "#",
   },
   {
     name: "Sign Language Testing",
     year: "Feb 2025",
     align: "right",
-    image: "../../public/images/website-img-2.webp",
+    image: "../images/website-img-2.webp",
     link: "#",
   }
 ];

@@ -1,26 +1,26 @@
-import SingleExperience from "./SingleExperience";
+import SingleCertificate from "./SingleCertificate";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const experiences = [
+const Certificate = [
   
   {
     job: "Front-End Developer",
     company: "Remote",
-    date: "2024 - Present",
+    date: "Aug-2024",
     responsibilities: [
     ],
   },
 ];
 
-const AllExperiences = () => {
+const AllCertificates = () => {
   return (
     <div className="flex md:flex-row sm:flex-col items-center justify-between">
-      {experiences.map((experience, index) => {
+      {Certificate.map((certificate, index) => {
         return (
           <>
-            <SingleExperience key={index} experience={experience} />
+            <SingleCertificate key={index} Certificate={certificate} />
             {index < 2 ? (
               <motion.div
                 variants={fadeIn("right", 0)}
@@ -40,4 +40,4 @@ const AllExperiences = () => {
   );
 };
 
-export default AllExperiences;
+export default AllCertificates;

@@ -1,4 +1,4 @@
-const ExperienceInfo = ({ number, text }) => {
+const certificateInfo = ({ number, text }) => {
   return (
     <div className="flex flex-col justify-center items-center">
       <p className="font-bold text-6xl text-cyan">{number}</p>
@@ -7,4 +7,4 @@ const ExperienceInfo = ({ number, text }) => {
   );
 };
 
-export default ExperienceInfo;
+export default certificateInfo;

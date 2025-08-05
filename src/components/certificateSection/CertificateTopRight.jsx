@@ -1,4 +1,4 @@
-const ExperienceTopRight = () => {
+const CertificateTopRight = () => {
   return (
     <div className="xl:w-[25%] lg:w-[30%] border border-lightBrown p-4 rounded-xl">
       <p className="text-lg text-center text-lightGrey">
@@ -8,13 +8,13 @@ const ExperienceTopRight = () => {
         </span>
         , leveraging best practices to create scalable and maintainable
         solutions. <br />
-        My experience spans working on diverse projects, from small business
+        My Certificate spans working on diverse projects, from small business
         websites to{" "}
         <span className="font-bold text-white">complex front-end systems</span>,
-        always aiming for clean code and exceptional user experiences.
+        always aiming for clean code and exceptional user Certificates.
       </p>
     </div>
   );
 };
 
-export default ExperienceTopRight;
+export default CertificateTopRight;

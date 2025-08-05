@@ -1,6 +1,5 @@
-import ExperienceInfo from "./ExperienceInfo";
 
-const ExperienceTopLeft = () => {
+const CertificateTopLeft = () => {
   return (
     <div className="flex flex-col gap-6 w-[300px]">
       <p className="text-orange font-bold uppercase text-3xl font-special text-center">
@@ -9,11 +8,11 @@ const ExperienceTopLeft = () => {
       <div className="flex justify-center items-center gap-4">
       </div>
       <p className="text-center">
-        With 1 years of experience building dynamic and user-friendly web
+        With 1 years of certificate building dynamic and user-friendly web
         applications.
       </p>
     </div>
   );
 };
 
-export default ExperienceTopLeft;
+export default CertificateTopLeft;
