@@ -11,8 +11,8 @@ const FooterMain = () => {
       section: "skills",
     },
     {
-      name: "Experience",
-      section: "experience",
+      name: "Certificates",
+      section: "certificate",
     },
     {
       name: "Projects",
@@ -20,11 +20,11 @@ const FooterMain = () => {
     },
   ];
   return (
-    <div className="px-4">
+    <div className="px-4 bg-black opacity-70">
       <div className="w-full h-[1px] bg-lightGrey mt-24"><hr /></div>
-      <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden mb-5">
-        <p className="text-3xl text-lightGrey ">-Bhola Shankar-</p>
-        <ul className="flex gap-4 text-lightGrey text-xl">
+      <div className="flex lg:justify-between items-center gap-3 mt-4 max-w-[1200px] mx-auto mb-5  lg:flex-row flex-col">
+        <p className="text-3xl text-gray-300 ">-Bhola Shankar-</p>
+        <ul className="flex gap-6 text-gray-400 font-bold text-xl">
           {footerLinks.map((item, index) => {
             return (
               <li key={index}>
@@ -43,7 +43,7 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-center mt-5 mb-10 text-sm text-lightBrown">
+      <p className="max-w-[1200px] mx-auto text-center mt-5 text-sm">
         © 2025 BS | All Rights Reserved.
       </p>
     </div>
