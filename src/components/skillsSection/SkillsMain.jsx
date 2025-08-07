@@ -16,10 +16,10 @@ const SkillsMain = () => {
         >
           <SkillsText />
         </motion.div>
-        <div className="bottom-[50px] absolute left-[50%] -translate-x-[50%] sm:hidden lg:block">
+        <div className="mt-10 flex justify-center left-[50%]-translate-x-[50%] ">
           <AllSkills />
         </div>
-        <div className="sm:block lg:hidden">
+        <div className="hidden lg:block">
           <AllSkillsSM />
         </div>
       </div>
