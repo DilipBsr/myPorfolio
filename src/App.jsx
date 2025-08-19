@@ -15,20 +15,19 @@ import { useSelector } from "react-redux";
 function App() {
   const menuOpen = useSelector((state) => state.menu.menuOpen);
   
-  
   return (
     <main className="font-body text-white relative overflow-hidden">
       <NavbarMain />
       <div className={`${menuOpen?"opacity-5":""}`}>
-      <HeroMain />
-      <HeroGradient />
-      <SubHeroMain />
-      <AboutMeMain />
-      <SkillsMain />
-      <SubSkills />
-      <CertificateMain/>
-      <ProjectsMain />
-      <ContactMeMain />
+        <HeroMain />
+        <HeroGradient />
+        <SubHeroMain />
+        <AboutMeMain />
+        <SkillsMain />
+        <SubSkills />
+        <CertificateMain/>
+        <ProjectsMain />
+        <ContactMeMain />
       </div>
       <FooterMain />
     </main>
