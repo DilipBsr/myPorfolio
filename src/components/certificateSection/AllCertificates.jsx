@@ -6,31 +6,38 @@ import { fadeIn } from "../../framerMotion/variants";
 const Certificate = [
   
   {
-    course: "Web Development",
+    course: "Web Development Course",
     company: "Udemy",
     date: "Aug-2022",
     image:"public/images/udemy.png"
   },
    {
-    course: "TechAThon",
+    course: "TechAThon College Hackathon",
     company: "MAIT",
     date: "February-2024",
     image:"public/images/TechAThon.png"
   },
   {
-    course: "Data Science With Python",
+    course: "Data Science With Python Course",
     company: "SimpleLearn",
     date: "April-2024",
     image:"public/images/certificate.jpg"
   },
   {
-    course: "DBMS",
+    course: "IBM SkillBuild Virtual Internship",
+    company: "IBM",
+    date: "June-2024",
+    image:"public/images/ibmInternship.png"
+  },
+
+  {
+    course: "DBMS Course",
     company: "Infosys",
     date: "January-2025",
      image:"public/images/DBMS.png"
   },
   {
-    course: "DSA in Java",
+    course: "DSA in Java Course",
     company: "Infosys",
     date: "January-2025",
      image:"public/images/javaDSA.png"
