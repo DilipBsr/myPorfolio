@@ -9,42 +9,33 @@ const Certificate = [
     course: "Web Development",
     company: "Udemy",
     date: "Aug-2022",
-    learnings: [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    image:"public/images/udemy.png"
+  },
+   {
+    course: "TechAThon",
+    company: "MAIT",
+    date: "February-2024",
+    image:"public/images/TechAThon.png"
   },
   {
-    course: "Web Development",
-    company: "Udemy",
-    date: "Aug-2022",
-    learnings: [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    course: "Data Science With Python",
+    company: "SimpleLearn",
+    date: "April-2024",
+    image:"public/images/certificate.jpg"
   },
   {
-    course: "Web Development",
-    company: "Udemy",
-    date: "Aug-2022",
-    learnings: [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    course: "DBMS",
+    company: "Infosys",
+    date: "January-2025",
+     image:"public/images/DBMS.png"
   },
   {
-    course: "Web Development",
-    company: "Udemy",
-    date: "Aug-2022",
-    learnings: [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    course: "DSA in Java",
+    company: "Infosys",
+    date: "January-2025",
+     image:"public/images/javaDSA.png"
   },
+   
 ];
 
 const AllCertificates = () => {

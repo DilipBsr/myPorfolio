@@ -8,23 +8,18 @@ const SingleCertificate = ({ Certificate }) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.7 }}
-      className="lg:w-auto border-2 border-dashed rounded-2xl mt-12 p-4 gap-5 bg-amber-600"
+      className="lg:w-auto border-2 border-dashed rounded-2xl mt-12 p-4 gap-5"
     >
-    <div className="lg:block grid grid-cols-2 min-w-100 lg:w-auto text-center">
+    <div className="grid lg:grid-cols-2 md:grid-cols-2 min-w-auto  max-w-150 text-center justify-center items-center gap-5">
       <div className="flex flex-col gap-2 justify-center items-center lg:block">
       <p className="font-bold text-cyan">{Certificate.course}</p>
       <div className="flex gap-5">
         <p className="text-orange">{Certificate.company}</p>
         <p className="text-lightGrey">{Certificate.date}</p>
       </div>
-      <ul className=" flex gap-5 flex-wrap list-disc mt-4 pl-4">
-        {Certificate.learnings.map((resp, index) => {
-          return <li key={index}>{resp}</li>;
-        })}
-      </ul>
       </div>
       <div>
-        <img src={""} alt="website image" className="w-full h-full" />
+        <img src={Certificate.image} alt="website image" className="w-90 h-full" />
       </div>
     </div>
     </motion.div>

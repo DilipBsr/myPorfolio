@@ -4,9 +4,11 @@ import CertificateTopRight from "./CertificateTopRight";
 
 const CertificateTop = () => {
   return (
-    <div className="flex lg:flex-row sm:flex-col gap-4 items-center justify-center">
-      <CertificateTopLeft />
-      <CertificateTopMiddle />
+    <div className="">
+      <div className="flex items-center justify-center flex-col gap-0">
+        <CertificateTopMiddle />  
+        <CertificateTopLeft />  
+      </div>
       <CertificateTopRight />
     </div>
   );
