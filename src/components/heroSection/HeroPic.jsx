@@ -17,8 +17,8 @@ const HeroPic = () => {
         className="max-h-[450px] w-auto"
       />
 
-      <div className=" absolute -z-10 flex justify-center items-center animate-[pulse_20s_ease-in-out_infinite]">
-        <SiSnapdragon className="h-[2000px] min-h-[400px] w-auto text-red-500 blur-lg animate-[spin_50s_linear_infinite] " />
+      <div className=" absolute -z-3 flex justify-center items-center animate-[pulse_20s_ease-in-out_infinite]">
+        <SiSnapdragon className="h-[200px] min-h-[400px] w-auto blur-lg animate-[spin_50s_linear_infinite] " />
       </div>
     </motion.div>
   );

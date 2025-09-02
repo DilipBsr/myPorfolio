@@ -1,6 +1,6 @@
 const CertificateTopRight = () => {
   return (
-    <div className="xl:w-[25%]  border border-lightBrown p-4 rounded-xl">
+    <div className="border border-lightBrown p-4 rounded-xl">
       <p className="text-lg text-center text-lightGrey">
         I specialize in{" "}
         <span className="font-bold text-white">

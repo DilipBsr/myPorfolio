@@ -46,7 +46,7 @@ const skills = [
 
 const AllSkillsSM = () => {
   return (
-    <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
+    <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12 mb-20">
       {skills.map((item, index) => {
         return (
           <motion.div
@@ -57,7 +57,7 @@ const AllSkillsSM = () => {
             key={index}
             className="flex flex-col items-center"
           >
-            <item.icon className="text-7xl text-orange" />
+            <item.icon className="text-7xl" />
             <p className="text-center mt-4">{item.skill}</p>
           </motion.div>
         );

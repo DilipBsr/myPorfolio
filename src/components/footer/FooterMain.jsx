@@ -20,11 +20,11 @@ const FooterMain = () => {
     },
   ];
   return (
-    <div className="px-4 bg-black opacity-70">
-      <div className="w-full h-[1px] bg-lightGrey mt-24"><hr /></div>
-      <div className="flex lg:justify-between items-center gap-3 mt-4 max-w-[1200px] mx-auto mb-5  lg:flex-row flex-col">
-        <p className="text-3xl text-gray-300 ">-Bhola Shankar-</p>
-        <ul className="flex gap-6 text-gray-400 font-bold text-xl">
+    <div className="px-4 bg-pink-600 pb-5">
+      <div className="w-full h-[1px] mt-24"><hr /></div>
+      <div className="flex  lg:justify-between items-center gap-3 mt-4 max-w-[1200px] mx-auto mb-5 lg:flex-row flex-col">
+        <p className="text-3xl outfit-regular">-Bhola Shankar-</p>
+        <ul className="flex gap-6 lg:font-semibold lg:text-xl cursor-pointer">
           {footerLinks.map((item, index) => {
             return (
               <li key={index}>

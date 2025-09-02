@@ -3,10 +3,12 @@ import CertificateTop from "./CertificateTop";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import CertificateText from "./certificateText";
-
+import { Si1Password } from "react-icons/si";
 const CertificateMain = () => {
   return (
-    <div id="certificate" className="max-w-[1200px] mx-auto px-4">
+    <div id="certificate" className="max-w-[1200px] mx-auto px-4 mb-10">
+      <hr />
+      
       <motion.div
         variants={fadeIn("down", 0)}
         initial="hidden"
