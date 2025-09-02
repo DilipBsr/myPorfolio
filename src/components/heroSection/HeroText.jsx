@@ -3,35 +3,26 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col gap-4 h-full justify-center md:text-left text-center">
-      <motion.h2
-        variants={fadeIn("down", 0.2)}
+    <div className="flex flex-col gap-4 h-full justify-center md:text-left md:ml-10 text-center ">
+      <motion.h1
+        variants={fadeIn("right", 0.2)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
+        className="md:text-5xl text-3xl lg:text-5xl sm:text-4xl text-orange font-bold uppercase winky-rough-regular "
       >
-        Full Stack Web Developer
-      </motion.h2>
-      <motion.h1
+        Bhola Shankar
+      </motion.h1>
+      <motion.h2
         variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
+        className="lg:text-5xl md:text-2xl text-3xl  uppercase font-semibold prata-regular"
       >
-        Bhola <br className="sm:hidden md:block" />
-        Shankar
-      </motion.h1>
-      <motion.p
-        variants={fadeIn("up", 0.6)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4"
-      >
-        A Passionate Web Developer<br /> Completing B.Tech in 2025 with CGPA 9.0
-      </motion.p>
+        Full Stack Web Developer
+      </motion.h2>
+     
     </div>
   );
 };

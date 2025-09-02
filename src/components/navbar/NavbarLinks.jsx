@@ -18,7 +18,7 @@ const NavbarLinks = () => {
     console.log("clicked");
   };
   return (
-    <ul className="flex lg:flex-row flex-col gap-6 text-white font-body lg:relative absolute top-[120%] text-center left-[50%] -translate-x-[50%] lg:text-md text-xl bg-black w-full py-4">
+    <ul className="flex justify-center flex-col gap-6 text-white font-body fixed text-center left-[50%] -translate-x-[50%] lg:text-2xl text-xl font-semibold md:text-2xl bg-black w-full py-4 opacity-40 z-10">
       {links.map((link, index) => {
         return (
           <li key={index} className="group">
@@ -28,7 +28,7 @@ const NavbarLinks = () => {
               duration={500}
               offset={-130}
               to={link.section}
-              className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
+              className="cursor-pointer text-white transition-all duration-500"
               onClick={setToggleMenu}
             >
               {link.link}

@@ -40,7 +40,7 @@ const Certificate = [
     course: "DSA in Java Course",
     company: "Infosys",
     date: "January-2025",
-     image:"/images/javaDSA.png"
+     image:"/images/JavaDSA.png"
   },
    
 ];

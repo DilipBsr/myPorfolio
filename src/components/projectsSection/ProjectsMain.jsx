@@ -7,29 +7,29 @@ const projects = [
     name: "News App",
     year: "March 2023",
     align: "left",
-    image: "../images/website-img-2.webp",
-    link: "#",
+    image: "/images/newsApi.png",
+    link: "https://github.com/DilipBsr/world-news-app",
   },
   {
     name: "House Mela",
     year: "Sep 2023",
     align: "right",
-    image: "../images/website-img-2.webp",
-    link: "#",
+    image: "../images/HouseMela.png",
+    link: "https://housemela-tau.vercel.app/",
   },
   {
     name: "Sofos",
     year: "July 2024",
     align: "left",
-    image: "../images/website-img-2.webp",
-    link: "#",
+    image: "../images/sofos.png",
+    link: "https://github.com/DilipBsr/sofos",
   },
   {
     name: "Sign Language Testing",
     year: "Feb 2025",
     align: "right",
-    image: "../images/website-img-2.webp",
-    link: "#",
+    image: "../images/SignTesting.png",
+    link: "https://github.com/DilipBsr/Sign-Language-Character-Testing",
   }
 ];
 
@@ -59,6 +59,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

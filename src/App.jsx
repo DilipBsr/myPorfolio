@@ -17,6 +17,7 @@ function App() {
   
   return (
     <main className="font-body text-white relative overflow-hidden">
+      
       <NavbarMain />
       <div className={`${menuOpen?"opacity-5":""}`}>
         <HeroMain />
