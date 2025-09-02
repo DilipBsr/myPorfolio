@@ -9,10 +9,9 @@ const AboutMeText = () => {
         💻 With a strong grasp of both front-end and back-end technologies, I love writing clean code, solving real-world problems, and continuously leveling up my skills.
         🧠 I’ve also solved 400+ DSA problems in Java, sharpening my logic, algorithms, and coding fundamentals.
       </p>
-      <button className="border rounded-full py-2 mb-10 px-4 text-lg flex gap-2 items-center mt-10 cursor-pointer w-fit self-center "
-      onClick={()=>window.open("/images/BholaShankarCV_8.pdf","_blank")}>
+      <div className="cursor-pointer border w-fit self-center p-3 rounded-4xl ">
         My Resume
-      </button>
+      </div>
     </div>
   );
 };

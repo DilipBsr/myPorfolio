@@ -7,7 +7,7 @@ const NavbarMain = () => {
   return (
     <nav className="max-w-[1300px] mx-auto w-screen px-4 left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2 fixed">
       <div className="flex justify-between w-full max-w-[1200px] mx-auto  bg-black opacity-40 items-center pl-6 pr-6 lg:p-4 rounded-3xl shadow-2xl shadow-orange-200">
-        <h1 className="text-white  text-3xl hidden font-special font-extrabold lg:block md:block">
+        <h1 className="text-white text-3xl hidden font-special font-extrabold lg:block md:block">
           Portfolio
         </h1>
         <h1 className="text-white font-special font-extrabold text-4xl md:hidden sm:block">

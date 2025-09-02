@@ -10,7 +10,7 @@ const NavbarToggler = () => {
   };
   return (
     <button
-      className="lg:text-2xl lg:p-3 p-2 border border-orange rounded-full"
+      className="lg:text-2xl lg:p-3 p-2 border border-orange rounded-full cursor-pointer"
       onClick={setToggleMenu}
     >
       <GiHamburgerMenu />
