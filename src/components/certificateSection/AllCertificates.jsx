@@ -9,38 +9,38 @@ const Certificate = [
     course: "Web Development Course",
     company: "Udemy",
     date: "Aug-2022",
-    image:"public/images/udemy.png"
+    image:"/images/udemy.png"
   },
    {
     course: "TechAThon College Hackathon",
     company: "MAIT",
     date: "February-2024",
-    image:"public/images/TechAThon.png"
+    image:"/images/TechAThon.png"
   },
   {
     course: "Data Science With Python Course",
     company: "SimpleLearn",
     date: "April-2024",
-    image:"public/images/certificate.jpg"
+    image:"/images/certificate.jpg"
   },
   {
     course: "IBM SkillBuild Virtual Internship",
     company: "IBM",
     date: "June-2024",
-    image:"public/images/ibmInternship.png"
+    image:"/images/ibmInternship.png"
   },
 
   {
     course: "DBMS Course",
     company: "Infosys",
     date: "January-2025",
-     image:"public/images/DBMS.png"
+     image:"/images/DBMS.png"
   },
   {
     course: "DSA in Java Course",
     company: "Infosys",
     date: "January-2025",
-     image:"public/images/javaDSA.png"
+     image:"/images/javaDSA.png"
   },
    
 ];
