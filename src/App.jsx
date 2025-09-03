@@ -1,5 +1,5 @@
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
-import CertificateMain from "./components/certificateSection/certificateMain";
+import CertificateMain from "./components/certificateSection/CertificateMain";
 import ContactMeMain from "./components/contactMeSection/ContactMeMain";
 import FooterMain from "./components/footer/FooterMain";
 import HeroGradient from "./components/heroSection/HeroGradient";

@@ -6,7 +6,7 @@ import "swiper/css/autoplay";
 const SubHeroMain = () => {
   return (
     <>
-    <div className="w-full border-y border-light-200 text-light-200 flex justify-around uppercase xl:text-3xl md:text-2xl sm:text-2xl  py-8 md:flex-row items-center gap-4 outfit-regular sm:flex hidden">
+    <div className="w-full border-y border-light-200 text-light-200 lg:flex md:flex justify-around uppercase xl:text-3xl md:text-2xl sm:text-2xl  py-8 md:flex-row items-center gap-4 outfit-regular sm:flex hidden">
         <p>Adaptable</p>
         <p>Problem Solver</p>
         <p >Team Player</p>
