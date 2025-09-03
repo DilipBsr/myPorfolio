@@ -2,7 +2,7 @@ import AllCertificates from "./AllCertificates";
 import CertificateTop from "./CertificateTop";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-import CertificateText from "./certificateText";
+import CertificateText from "./CertificateText";
 
 const CertificateMain = () => {
   return (
