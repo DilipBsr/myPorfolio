@@ -6,7 +6,7 @@ import { Si1Dot1Dot1Dot1} from "react-icons/si";
 const projects = [
   {
     name: "News App",
-    year: "March 2023",
+    year: "Mar 2023",
     align: "left",
     image: "/images/newsApi.png",
     link: "https://github.com/DilipBsr/world-news-app",

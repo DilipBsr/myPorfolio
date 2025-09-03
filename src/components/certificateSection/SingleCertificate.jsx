@@ -4,11 +4,11 @@ import { fadeIn } from "../../framerMotion/variants";
 const SingleCertificate = ({ Certificate }) => {
   return (
     <motion.div
-      variants={fadeIn("right", 0)}
+      variants={fadeIn("show", 0)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.7 }}
-      className="lg:w-auto border-2 border-dashed rounded-2xl mt-12 p-4 gap-5"
+      className="lg:w-auto border-2 border-dashed rounded-2xl mt-12 p-4 gap-5 hover:scale-105 transition-all duration-300 "
     >
     <div className="grid lg:grid-cols-2 md:grid-cols-2 min-w-auto  max-w-150 text-center justify-center items-center gap-5">
       <div className="flex flex-col gap-2 justify-center items-center lg:block">

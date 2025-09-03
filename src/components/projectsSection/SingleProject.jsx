@@ -5,7 +5,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const SingleProject = ({ name, year, align, image, link }) => {
   return (
     <motion.div
-      variants={fadeIn("top", 0)}
+      variants={fadeIn("down", 0.2)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.1 }}
@@ -13,10 +13,10 @@ const SingleProject = ({ name, year, align, image, link }) => {
         align === "left" ? "md:flex-row" : "md:flex-row-reverse"
       } justify-end sm:flex-col`}
     >
-      <div>
-        <h2 className="md:text-3xl sm:text-2xl">{name}</h2>
+      <div className="bg-red">
+        <h1 className="md:text-3xl sm:text-2xl">{name}</h1>
         <h2
-          className={`lg:text-2xl md:text-xl font-thin text-white font-special sm:text-center ${
+          className={`lg:text-2xl md:text-xl text-sm font-thin text-white font-special sm:text-center ${
             align === "left" ? "md:text-right" : "md:text-left"
           }`}
         >
@@ -25,7 +25,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
         <a
           href={link}
           target="_blank"
-          className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${
+          className={`text-lg flex gap-2 items-center text-gray-800 hover:text-white transition-all duration-500 cursor-pointer sm:justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
           }`}
         >
