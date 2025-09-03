@@ -8,6 +8,16 @@ const SkillsMain = () => {
   return (
     <div id="skills">
       <hr />
+       <motion.div
+        variants={fadeIn("down", 0)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.7 }}
+      >
+        <div className="flex flex-col items-center">
+          <h2 className="lg:text-6xl sm:3xl text-5xl mt-10 font-special font-extrabold ">Skills</h2>
+        </div>
+      </motion.div>
       <div className="max-w-[1200px] px-4 mt-10 mx-auto min-h-[600px] relative overflow-hidden">
         <motion.div
           variants={fadeIn("down", 0.2)}
