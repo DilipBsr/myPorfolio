@@ -16,7 +16,6 @@ const NavbarLinks = () => {
 
   const setToggleMenu = () => {
     dispatch(toggleMenu());
-    console.log("clicked");
   };
   return (
     <>

@@ -9,7 +9,7 @@ const AboutMeMain = () => {
 
     <>
     
-    <div id="about" className="min-h-screen mt-10 mb-10">
+    <div id="about" className=" mt-10 mb-20">
       <div className=" absolute -z-2 flex justify-start wrap-normal items-center animate-[pulse_20s_ease-in-out_infinite]">
             <Si1Password className="rounded-b-4xl h-auto w-[2000px] scale-300 text-pink-500 blur-lg animate-[spin_50s_linear_infinite] " />
     </div>

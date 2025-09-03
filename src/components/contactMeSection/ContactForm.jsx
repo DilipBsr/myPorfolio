@@ -30,8 +30,7 @@ const ContactForm = () => {
           setSuccess("Message Sent Succesfully");
         },
         (error) => {
-          console.log("FAILED...", error.text);
-          setSuccess(`Failed Due To Error,Try Later. `)
+          setSuccess(`Oops Something went Wrong!! Sorry for inconvenience!!`)
         }
       );
   };
